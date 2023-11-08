@@ -1,3 +1,11 @@
+#include <string.h>
+
+size_t ft_strlen(const char *str);
+void *ft_memset(void *str, char c, size_t n);
+void ft_bzero(void *dst, size_t n);
+void *ft_memcpy(void *dest, const void * src, size_t n);
+void * ft_memccpy(void *dest, const void *src, char c, size_t n);
+
  /** memory allocation and manipulation
   * `ft_strlen`, 
   * `ft_memcpy`, 
